@@ -9,21 +9,51 @@ header{
     background-color: rgb(50, 50, 50);
     color: rgb(220, 220, 220);
     text-align: center;
-    padding: 10px;
     display: block;
+    padding: 15px 0 15px 0;
+    width: 97%;
     margin: auto;
-    margin: 5px 0px 25px 0px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
 }
 
-h1{
+header > h1{
     text-align: center;
     font-size: 2.5em;
     color: rgb(220, 220, 220);
 }
 
+header > p{
+    margin: 10px 0 10px 0;
+}
+
+nav{
+    background-color: rgb(50, 50, 50);
+    width: 97%;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 5px;
+}
+
 nav > a{
     text-decoration: none;
     margin-left: 15px;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: rgb(200, 200, 200);
+    color: rgb(50, 50, 50);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+main > article > h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 25px;
 }
 
 #for{
@@ -75,7 +105,7 @@ main > article > p{
     width: 75%;
     display: block;
     margin: auto;
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 0 0;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -86,7 +116,7 @@ main > article > p{
     text-align: center;
     width: 75%;
     height: 30px;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 10px 10px;
     color: rgb(220, 220, 220);
     padding-top: 10px;
     margin-bottom: 25px;
